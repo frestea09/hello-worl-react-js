@@ -4,6 +4,7 @@ import ClassHello from './ClassHello';
 import GetState from './GetState';
 import Destruction from './Destruction';
 import BelajarUseHook from './BelajarUseHook';
+import BelajarState from './BelajarState';
 
 class App extends Component{
     constructor(){
@@ -33,7 +34,8 @@ class App extends Component{
                 <GetState bilangan={this.state.bilanganPertama} bilanganSaya={this.bilanganSaya}/>
                 <button onClick={this.bilanganSaya}>Rubah Saya</button> */}
                 {/* <Destruction pertama={this.state.bilanganPertama} kedua={this.state.bilanganDua} sayHelloWorld={this.sayHelloWorld}/> */}
-                <BelajarUseHook/>
+                {/* <BelajarUseHook/> */}
+                <BelajarState/>
             </div>
         )
     }
